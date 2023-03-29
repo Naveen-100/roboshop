@@ -14,7 +14,7 @@ git clone https://github.com/Naveen-100/roboshop.git
 cd roboshop
 ```
 ```
-for i in web mongodb catalogue  user cart mysql shipping ratings payment; do cd $i ; docker build -t $i:v1 . ; cd .. ; done
+for i in web mongo catalogue  user cart mysql shipping ratings payment; do cd $i ; docker build -t $i:v1 . ; cd .. ; done
 ```
 * Make sure folders are created for Docker volumes.
 ```
